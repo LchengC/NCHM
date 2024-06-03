@@ -1,6 +1,6 @@
 # Modeling Document Causal Structure with A Hypergraph for Event Causality Identification
 
-This is the code of the paper *Modeling Document Causal Structure with A Hypergraph for Event Causality Identification*.
+This is the code of the paper [*Modeling Document Causal Structure with A Hypergraph for Event Causality Identification*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4694339).
 
 A *Neural Causal Hypergraph Model* (NCHM) to encode both document causal structureand pairwise event semantics for the ECI task.
 
