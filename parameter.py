@@ -31,7 +31,7 @@ def parse_args():
     parser.add_argument('--lr',             default=1e-3,       type=float,     help='initial hgnn learning rate')
     parser.add_argument('--t_lr',           default=1e-5,       type=float,     help='initial transformer learning rate')
     parser.add_argument('--mlp_lr',         default=2e-5,       type=float,     help='initial mlp learning rate')
-    parser.add_argument('--batch_size',     default=4,         type=int,       help='batchsize for optimizer updates')
+    parser.add_argument('--batch_size',     default=16,         type=int,       help='batchsize for optimizer updates')
 
     parser.add_argument('--log',            default='./out/',   type=str,       help='Log result file name')
     parser.add_argument('--model',          default='./load_model/', type=str,  help='Load model file name')
